@@ -18,10 +18,11 @@ st.set_page_config(
 def load_assets():
     """Loads all necessary pre-trained models and data."""
     try:
-        scaler = joblib.load(r"C:\Users\Sariga\OneDrive\Documents\New_Deploy_Streamlit\saved_models\scaler_pred.pkl")
-        encoder = joblib.load(r"C:\Users\Sariga\OneDrive\Documents\New_Deploy_Streamlit\saved_models\label_encoder.pkl")
-        classifier = joblib.load(r"C:\Users\Sariga\OneDrive\Documents\New_Deploy_Streamlit\saved_models\rf_classifier.pkl")
-        rfm_data = pd.read_csv(r"C:\Users\Sariga\OneDrive\Documents\New_Deploy_Streamlit\saved_models\rfm_with_segments.csv")
+        scaler = joblib.load("saved_models/scaler_pred.pkl")
+        encoder = joblib.load("saved_models/label_encoder.pkl")
+        classifier = joblib.load("saved_models/rf_classifier.pkl")
+        rfm_data = pd.read_csv("saved_models/rfm_with_segments.csv")
+
         return scaler, encoder, classifier, rfm_data
     except FileNotFoundError:
         st.error("Model files not found. Please run the `train_and_save_models.py` script first.")
