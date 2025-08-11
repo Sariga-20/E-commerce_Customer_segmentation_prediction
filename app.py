@@ -23,10 +23,8 @@ def load_assets():
         classifier = joblib.load("saved_models/rf_classifier.pkl")
         rfm_data = pd.read_csv("saved_models/rfm_with_segments.csv")
 
-<<<<<<< HEAD
         return scaler, encoder, classifier, rfm_data
-=======
->>>>>>> 73e4e7b61af2f46d7cf6ba9125ec210d37c1752d
+
     except FileNotFoundError:
         st.error("Model files not found. Please run the `train_and_save_models.py` script first.")
         return None, None, None, None
