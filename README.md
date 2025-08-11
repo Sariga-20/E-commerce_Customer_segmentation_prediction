@@ -101,7 +101,7 @@ Visit [**http://localhost:8501**](http://localhost:8501) in your browser.
 1. Push this repository to GitHub.
 2. Go to [Streamlit Community Cloud](https://share.streamlit.io/).
 3. Click **Create app** → Connect your GitHub repo → Select `app.py` as the main file.
-4. Click **Deploy** — your app gets a public URL to share.
+4. Click **Deploy** — https://e-commercecustomersegmentationprediction-fkevbgcqoztpnmnurwqgj.streamlit.app/
 
 ---
 
