@@ -2,7 +2,7 @@
 
 An interactive **Streamlit** web application that segments e‑commerce customers using **RFM (Recency, Frequency, Monetary)** analysis and predicts the customer segment based on purchase behaviour using a **Random Forest Classifier**.
 
-The segmentation logic uses **K-Means clustering** on RFM scores to identify five target customer groups, helping businesses run personalized marketing, predict churn, and boost retention.
+The segmentation logic uses **K-Means clustering** on RFM scores to identify five target customer groups, helping businesses run personalized marketing, predict Segment, and boost retention.
 
 ---
 
