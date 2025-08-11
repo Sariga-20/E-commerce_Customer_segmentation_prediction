@@ -21,7 +21,7 @@ The segmentation logic uses **K-Means clustering** on RFM scores to identify fiv
 
 ## 📂 Project Structure
 
-.
+'''
 ├── app.py # Streamlit application
 ├── Project_Code.ipynb # Notebook: data processing, RFM, ML model training
 ├── e-commerce-data.csv # Dataset
@@ -33,7 +33,7 @@ The segmentation logic uses **K-Means clustering** on RFM scores to identify fiv
 │ └── rfm_with_segments.csv
 └── README.md
 
-
+'''
 ---
 
 ## 🛠 Tech Stack
@@ -111,21 +111,6 @@ Visit [**http://localhost:8501**](http://localhost:8501) in your browser.
 - **Potential Loyalists** 🌱 – New customers ⇒ nurture engagement.
 - **At-Risk Customers** ⚠️ – Previously active ⇒ run reactivation offers.
 - **Lost Customers** ❌ – Low spend/engagement ⇒ minimal recovery focus.
-
----
-
-
-The app will open in your browser at [**http://localhost:8501**](http://localhost:8501)
-
----
-
-## 📈 Customer Segments
-
-- **Champions** 🏆 – Best customers, frequent and high spenders; reward loyalty.
-- **Loyal Customers** 💎 – Consistent spenders; engage via upselling.
-- **Potential Loyalists** 🌱 – Recent customers; nurture engagement.
-- **At-Risk Spenders** ⚠️ – Previously active, now inactive; reactivation campaigns.
-- **Lost Customers** ❌ – Very low engagement; minimal reactivation focus.
 
 ---
 
