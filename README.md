@@ -18,22 +18,23 @@ The segmentation logic uses **K-Means clustering** on RFM scores to identify fiv
 - **Insights Tab**: Detailed practical business strategies for each segment.
 
 ---
-
 ## 📂 Project Structure
 
-'''
-├── app.py # Streamlit application
-├── Project_Code.ipynb # Notebook: data processing, RFM, ML model training
-├── e-commerce-data.csv # Dataset
-├── requirements.txt # Python dependencies
-├── saved_models/ # Pre-trained scaler, encoder, classifier, processed RFM data
-│ ├── scaler_pred.pkl
-│ ├── label_encoder.pkl
-│ ├── rf_classifier.pkl
-│ └── rfm_with_segments.csv
+The repository is organized as follows:
+
+```plaintext
+├── app.py                  # Streamlit application
+├── Project_Code.ipynb      # Notebook: data processing, RFM, ML model training
+├── e-commerce-data.csv     # Dataset
+├── requirements.txt        # Python dependencies
+├── saved_models/           # Pre-trained scaler, encoder, classifier, processed RFM data
+│   ├── scaler_pred.pkl
+│   ├── label_encoder.pkl
+│   ├── rf_classifier.pkl
+│   └── rfm_with_segments.csv
 └── README.md
 
-'''
+
 ---
 
 ## 🛠 Tech Stack
