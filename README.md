@@ -34,7 +34,7 @@ The repository is organized as follows:
 │   └── rfm_with_segments.csv
 └── README.md
 
-
+```
 ---
 
 ## 🛠 Tech Stack
